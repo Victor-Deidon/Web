@@ -1,0 +1,93 @@
+a=\frac{1}{{\lambda}_{in}}
+
+a=\frac{1}{{\lambda}_{in}}=E(t)
+
+{\lambda}_{in}=\frac{1}{E(t)}=\frac{1}{a}, \forall a \neq 0
+
+L \left(T_{1},T_{2}, ... ,T_{n},\frac{1}{a} \right) = \prod_{i=1}^{n} ~ f\left(T,\frac{1}{a}\right)
+
+f(x_{i})=\frac{1}{E(X)} e^{-\frac{x_{i}}{E(X)}}
+
+L \left(T_{1},T_{2}, ... ,T_{n},\frac{1}{a} \right) = \prod_{i=1}^{n} ~ \frac{1}{a} \times e^{-\frac{T_{i}}{E(X)}}=\frac{1}{a_{n}} \times e^{- \sum_{i=1}^{n}  \frac {T_{i}}{a}}
+
+L \left(T_{1},T_{2}, ... ,T_{n},\frac{1}{a} \right) = \frac{1}{a_{n}} \times e^{- \sum_{i=1}^{n}  \frac {T_{i}}{a}}
+
+ln \left[ L \left(T_{1},T_{2}, ... ,T_{n},\frac{1}{a} \right) \right] = ln \left( \frac{1}{a_{n}} \times e^{- \sum_{i=1}^{n}  \frac {T_{i}}{a}} \right) = ln \left(\frac{1}{a_{n}}\right) + ln \left( e^{- \sum_{i=1}^{n}  \frac {T_{i}}{a}} \right)
+
+ln \left[ L \left(T_{1},T_{2}, ... ,T_{n},\frac{1}{a} \right) \right] = - \ n ln(a) - \frac{1}{a} \times \sum_{i=1}^{n} T_{i}
+
+\frac { \delta ln \left[ L \left(T_{1},T_{2}, ... ,T_{n},\frac{1}{a} \right) \right]}{\delta a} = - \ \frac{n}{a} + \frac{1}{a^{2}} \times \sum_{i=1}^{n} T_{i} = 0
+
+\frac{n}{a} = \frac{1}{a^{2}} \times \sum_{i=1}^{n} T_{i}
+
+n = \frac{1}{a} \times \sum_{i=1}^{n} T_{i}
+
+\hat{a}=\frac{1}{n} \times \sum_{i=1}^{n} T_{i}
+
+V(T_{n})= \frac{1}{n.E \left\{ { \left( \frac { \delta ln \left[ L \left(T_{1},T_{2}, ... ,T_{n}, \frac{1}{a} \right) \right] }{\delta a} \right) }  }^{2} \right\} } = \frac {1}{I(a)}
+
+E \left\{ { \left( \frac { \delta ln \left[ L \left(T_{1},T_{2}, ... ,T_{n}, \frac{1}{a} \right) \right] }{\delta a} \right) }  }^{2} \right\} = \frac{\delta}{\delta a} \left(- \frac{n}{a} + \frac{1}{a^{2}} \times \sum_{i=1}^{n} \ T_{i} \right) = \frac{n}{a^{2}} - \frac{2na}{a^{2}} = - \frac{n}{a^{2}}
+
+I(a)^{-1} = - { E \left\{ { \left( \frac { \delta ln \left[ L \left(T_{1},T_{2}, ... ,T_{n}, \frac{1}{a} \right) \right] }{\delta a} \right) }  }^{2} \right\} }^{-1}
+
+I(a)^{-1} = \frac{1}{- \left( - \frac{n}{a^{2}} \right)} = \frac{a^{2}}{n}
+
+I(a)^{-1} = \frac{a^{2}}{n}
+
+E(\hat{a}) = \frac{ \sum_{i=1}^{n} \ E(T_{i}) } {n}
+
+E(\hat{a}) = \frac{na}{n} = a
+
+V(\hat{a}) = V \left( \frac{\sum_{i=1}^{n} \ T_{i} }{n} \right) = \frac{\sum_{i=1}^{n} \ V(T_{i}) }{n} = \frac{a^{2}}{n}
+
+\lim_{n \rightarrow +\infty} V(\hat{a}) = 0
+
+t_{\frac{a}{2}} \times \frac{\sigma}{\sqrt{n}}
+
+t_{\frac{a}{2}} = \frac{0,95}{2} = 0,475
+
+1,96 \times \frac{\sigma}{\sqrt{n}}
+
+\sigma = \hat{a}
+
+1,96 \times \frac{\hat{a}}{\sqrt{n}}
+
+{ \lambda }_{in} \pm t_{\frac{a}{2}} \times \frac{\sigma}{\sqrt{n}}
+
+{ \lambda }_{in} \pm 1,96 \times \frac{a}{\sqrt{n}}
+
+{ \lambda }_{in} - t_{\frac{a}{2}} \times \frac{a}{\sqrt{n}}
+
+{ \lambda }_{in} + t_{\frac{a}{2}} \times \frac{a}{\sqrt{n}}
+
+{ \lambda }_{in} - t_{\frac{a}{2}} \times \frac{a}{\sqrt{n}} \leq { \lambda }_{in}  \leq { \lambda }_{in} + t_{\frac{a}{2}} \times \frac{a}{\sqrt{n}}
+
+{\lambda}_{in} = \frac{1}{\hat{a}}
+
+\frac{1}{\hat{a}} \left( 1 - \frac{t}{\sqrt{n}} \right) \leq {\lambda}_{in} \leq \frac{1}{\hat{a}} \left( 1 + \frac{t}{\sqrt{n}} \right)
+
+{\lambda}_{in} = \frac{358}{1387} = 0,258
+
+\frac{1}{0,258} - \frac{1,96 \times \frac{1}{0,258}}{\sqrt{358}} \leq \frac{1}{{\lambda}_{in}} \leq \frac{1}{0,258} + \frac{1,96 \times \frac{1}{0,258}}{\sqrt{358}}
+
+3,474 \leq \frac{1}{{\lambda}_{in}} \leq 4,277
+
+{\lambda}_{in} = 0,258
+
+{\lambda}_{out}
+
+{\lambda}_{out} = \frac{340}{1413} = 0,240
+
+\frac{1}{0,240} - \frac{1,96 \times \frac{1}{0,240}}{\sqrt{340}} \leq \frac{1}{{\lambda}_{out}} \leq \frac{1}{0,240} + \frac{1,96 \times \frac{1}{0,240}}{\sqrt{340}}
+
+3,724 \leq \frac{1}{{\lambda}_{out}} \leq 4,610
+
+{\lambda}_{out} = 0,240
+
+
+
+
+
+
+
+

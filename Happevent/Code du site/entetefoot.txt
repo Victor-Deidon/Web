@@ -1,0 +1,66 @@
+<body>
+        
+        <div class="logo">
+            <img src="Logo happevent.png" alt="logo"/>
+        </div>
+        
+        <div class="header">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Recherche</a></li>
+                <li><a href="#">Mes évènements</a></li>
+                <li><a href="#">Créer un évènement</a></li>
+                <li><a href="#">Aide</a></li>
+            </ul>
+            
+        </div>
+        
+        <div class="connection">
+            <form action="connection">
+                <input type="text" placeholder="E-mail"></br>
+                <input type="text" placeholder="mot de passe"></div></br>
+            </form>
+        </div>
+
+        <div class="connection2">
+            <form action="connection2">
+                <input type="submit" value="inscription"></br>
+                <input type="submit" value="connection"></br>
+            </form>
+        </div>
+        
+        <div class="head">
+            <h1>Inscription</h1>
+            <h2>Bienvenue</h2>
+        </div>
+
+
+
+
+
+
+
+
+<div class="logo2">
+            </br></br><img src="Logo%20happevent.png" alt="logo"></br></br>
+        </div>
+
+        <div class="foot">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Haut de page</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+        </div>
+        <div class="partage">
+            <p>
+            <img src="logo-fb.png" alt="logo facebook">
+            <img src="Twitter_logo_blue.png" alt="logo twitter">
+            </p>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2015 HAPPYVENT All rights reserved</p>
+        </div>
