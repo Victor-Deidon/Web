@@ -1,0 +1,287 @@
+{ background-image:-webkit-linear-gradient(top, #7ea6e0 0%, #e5edf8 100%);
+    background-image:-moz-linear-gradient(top, #7ea6e0 0%, #e5edf8 100%);
+    background-image:-ms-linear-gradient(top, #7ea6e0 0%, #e5edf8 100%);
+    background-image:-o-linear-gradient(top, #7ea6e0 0%, #e5edf8 100%);
+    /*height: 2060px;*//*changement*/
+    background-attachment: fixed;
+    height : 100%;
+    background-repeat: no-repeat;/*ajout*/
+}
+
+body {
+    margin: 0;
+}
+
+.global {
+    width: 90%;
+    max-width: 90em;
+    min-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: block;
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    
+}
+
+.header_logo {
+    margin-top: 15px;
+    display:inline-block;
+    vertical-align: top;
+}
+.header_logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.onglet {
+    width: 750px;
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    padding: 37px 0 37px 0;
+}
+
+
+.onglet2 {
+    width: 750px;
+    display:block;
+    vertical-align: top;
+    margin-left: 50px;
+    padding: 37px 0 37px 0;
+}
+
+.onglet a {
+    text-decoration: none;
+    margin-right: 20px;
+    padding-top: 15px;
+
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    transition: text-shadow 0.5s;
+    -moz-transition: text-shadow 0.5s; /* Firefox 4 */
+    -webkit-transition: text-shadow 0.5s; /* Safari and Chrome */
+    -o-transition: text-shadow 0.5s; /* Opera */
+}
+
+.onglet a:hover {
+    text-shadow: 0px 0px 20px #fff;
+}
+
+.onglet2 a {
+    text-decoration: none;
+    margin-right: 20px;
+    padding-top: 15px;
+
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    transition: text-shadow 0.5s;
+    -moz-transition: text-shadow 0.5s; /* Firefox 4 */
+    -webkit-transition: text-shadow 0.5s; /* Safari and Chrome */
+    -o-transition: text-shadow 0.5s; /* Opera */
+}
+
+.onglet2 a:hover {
+    text-shadow: 0px 0px 20px #fff;
+}
+
+
+#mail  {
+    margin: 5px;
+    padding: 0 10px;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 20px
+    /*color: #404040;
+    background: white;
+    border-radius: 5px;*/
+}
+
+
+#mdp {
+    margin: 5px;
+    padding: 0 10px;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    /*color: #404040;
+    background: white;
+    border-radius: 5px;*/
+}
+
+/*#email:focus {
+  border-color: #7dc9e2;
+  outline-color: #dceefc;
+  outline-offset: 0;
+}
+
+#mdp:focus {
+  border-color: #7dc9e2;
+  outline-color: #dceefc;
+  outline-offset: 0;
+}*/
+
+
+
+
+.connexion {
+    width: 250px;
+    display: inline-block;
+    vertical-align: bottom;
+    position:relative;
+    height:100px;
+    
+    
+}
+
+#bouton9
+{
+    position: absolute;
+    left: 150px;
+    top: 15px
+}
+
+#bouton8
+{
+    position: absolute;
+    left: 150px;
+    top: 55px
+    
+}
+
+.qwerty
+{
+    position: absolute;
+    left: 100px;
+    top: 30px
+    
+}
+
+#remember_me
+{
+    position: absolute;
+    left: 20px;
+    
+    
+}
+
+
+#foot{
+    width: 650px;
+    padding-left: 20px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+footer {
+    display: block;
+    width: 90%;
+    height: 200px;
+    margin-top:20%;
+    margin: 0 auto;
+}
+
+
+.footer_logo {
+    width: 100px;
+   
+    /*position: relative;
+    display: block;
+    margin: 0 auto;*/
+}
+.footer_logo img {
+    height: 100px;
+    width: 100px;
+    margin-top: 2%;
+    margin-left: 50%;
+    margin-left: 48%;
+}
+
+footer #foot a{
+    margin-top: 0%;
+}
+.partage {
+    display: block;
+    width: 55px;
+    margin-top: 2%;
+    margin-left: 50%;
+    /*margin: 0 auto;*/
+    /*padding-left: 5px;*/
+}
+
+.facebook img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px
+}
+
+.twitter img{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 5px
+}
+
+.copyright{
+    width: 300px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top:5%;/*ajout*/
+    margin-left:40%;/*ajout*/
+}
+
+h2{
+    color:white; /*ajout*/
+    font-size: 40px;
+}
+h1{color:white;
+    
+}
+
+div {margin-left:20%;
+
+    
+}
+
+h3{
+
+text-align:center;
+}
+
+.thick {
+font-weight = bold;
+}
+
+.myButton {
+	background-color:#40c7b5;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:19px;
+	font-weight:bold;
+	padding:12px 32px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#47d3e6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
